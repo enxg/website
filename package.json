@@ -12,6 +12,10 @@
   },
   "prettier": "@enxg/prettier-config",
   "dependencies": {
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/image": "1.11.0",
+    "@vueuse/nuxt": "13.9.0",
     "nuxt": "^4.0.3",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
@@ -19,6 +23,11 @@
   "devDependencies": {
     "@enxg/prettier-config": "^1.1.0",
     "@enxg/ts-config": "^1.2.0",
+    "@iconify-json/line-md": "^1.2.11",
+    "@iconify-json/logos": "^1.2.9",
+    "@iconify-json/simple-icons": "^1.2.54",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "prettier": "^3.6.2"
-  }
+  },
+  "packageManager": "yarn@4.9.4"
 }
