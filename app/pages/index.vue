@@ -93,6 +93,8 @@ const technologies: Technology[] = [
   { name: "Mixpanel", icon: "simple-icons:mixpanel", color: "#7856FF" },
   { name: "Stripe", icon: "simple-icons:stripe", color: "#635BFF" },
 ]
+
+defineOgImageComponent("HomeOg");
 </script>
 
 <template>
