@@ -18,7 +18,7 @@ const currentYear = new Date().getFullYear();
     </div>
     <div class="flex flex-col items-center justify-center w-full">
       <span class="text-zinc-500 text-sm">
-        Built with Nuxt 3 & Tailwind CSS
+        Built with Nuxt 4 & Tailwind CSS
       </span>
     </div>
     <div class="flex flex-col md:items-end items-center justify-center w-full">
