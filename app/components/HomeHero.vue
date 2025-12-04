@@ -12,12 +12,12 @@ defineProps<{
   <div
     class="flex flex-col min-h-screen md:h-screen md:mt-0 mt-16 max-h-screen w-full items-center justify-center"
   >
-    <div class="flex md:flex-row flex-col items-center gap-16 w-full h-1/2 max-h-[50%]">
-      <div class="flex flex-col h-full md:w-auto w-3/4">
+    <div class="flex md:flex-row flex-col items-center gap-16 w-full h-1/2">
+      <div class="flex flex-col h-full justify-center">
         <img
           src="~/assets/profile.jpg"
           alt=""
-          class="h-full w-auto rounded-full"
+          class="w-64 md:w-96 aspect-square object-cover rounded-full"
         />
       </div>
       <div class="flex flex-col gap-8">
