@@ -4,7 +4,7 @@ export type EEItemData = {
   subtitle: string;
   duration: string;
   details?: string[];
-  icon: string;
+  icon?: string;
 };
 
 defineProps<EEItemData>();
@@ -12,7 +12,7 @@ defineProps<EEItemData>();
 
 <template>
   <div class="flex flex-row gap-4">
-    <img :src="icon" alt="icon" class="w-14 h-14 rounded" />
+    <img :src="icon" alt="icon" class="w-14 h-14 rounded" :class="!icon ? 'opacity-0' : ''" />
     <div class="flex flex-col">
       <span class="text-lg font-bold">
         {{ title }}
