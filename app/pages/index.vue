@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ClemtaLogo from "~/assets/clemta.jpg";
+import NodyoLogo from "~/assets/nodyo.png";
 import YTULogo from "~/assets/ytu.jpg";
 
 import type { NavbarItems } from "~/components/Navbar.vue";
@@ -33,6 +34,13 @@ const socials = [
 ];
 
 const experience: EEItemData[] = [
+  {
+    title: "Full Stack Developer",
+    subtitle: "Nodyo",
+    duration: "Oct 2025 - Present",
+    details: ["Istanbul, Turkiye · Remote"],
+    icon: NodyoLogo,
+  },
   {
     title: "Backend Developer",
     subtitle: "Clemta · Internship",

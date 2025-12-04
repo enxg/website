@@ -32,8 +32,9 @@ defineProps<{
           </p>
           <div class="flex flex-col mt-4 text-gray-300">
             <span
-              >Computer Engineering Student @ Yildiz Technical University</span
+              >Computer Engineering Student <span class="text-gray-400">at</span> Yildiz Technical University</span
             >
+            <span>Full Stack Developer <span class="text-gray-400">at</span> Nodyo</span>
           </div>
         </div>
         <div class="flex flex-row gap-4">
