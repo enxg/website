@@ -21,11 +21,6 @@ const socials = [
     icon: "line-md:linkedin",
   },
   {
-    title: "Instagram",
-    href: "https://www.instagram.com/enesgenc.dev",
-    icon: "line-md:instagram",
-  },
-  {
     title: "Discord",
     href: "https://dc.enesgenc.dev",
     icon: "line-md:discord",
@@ -62,30 +57,42 @@ const education: EEItemData[] = [
 
 const technologies: Technology[] = [
   { name: "JavaScript", icon: "simple-icons:javascript", color: "#F7DF1E" },
-  { name: "TypeScript", icon: "simple-icons:typescript", color: "#3178C6"},
+  { name: "TypeScript", icon: "simple-icons:typescript", color: "#3178C6" },
   { name: "Go", icon: "simple-icons:go", color: "#00ADD8" },
   { name: "Rust", icon: "simple-icons:rust", color: "#CE412B" },
   { name: "Node.js", icon: "simple-icons:nodedotjs", color: "#5FA04E" },
-  { name: "Express", icon: "simple-icons:express", color: "#FFFFFF"},
+  { name: "Express", icon: "simple-icons:express", color: "#FFFFFF" },
   { name: "NestJS", icon: "simple-icons:nestjs", color: "#E0234E" },
   { name: "Docker", icon: "simple-icons:docker", color: "#2496ED" },
   { name: "Git", icon: "simple-icons:git", color: "#F05032" },
   { name: "GitHub", icon: "simple-icons:github", color: "#FFFFFF" },
-  { name: "GitHub Actions", icon: "simple-icons:githubactions", color: "#2088FF" },
-  { name: "tRPC", icon: "simple-icons:trpc", color: "#2596BE"},
-  { name: "JWT", icon: "logos:jwt-icon", color: "#FFFFFF"},
-  { name: "Swagger (OpenAPI)", icon: "simple-icons:swagger", color: "#85EA2D"},
+  {
+    name: "GitHub Actions",
+    icon: "simple-icons:githubactions",
+    color: "#2088FF",
+  },
+  { name: "tRPC", icon: "simple-icons:trpc", color: "#2596BE" },
+  { name: "JWT", icon: "logos:jwt-icon", color: "#FFFFFF" },
+  { name: "Swagger (OpenAPI)", icon: "simple-icons:swagger", color: "#85EA2D" },
   { name: "Vue.js", icon: "simple-icons:vuedotjs", color: "#4FC08D" },
   { name: "Nuxt", icon: "simple-icons:nuxt", color: "#00DC82" },
   { name: "React", icon: "simple-icons:react", color: "#61DAFB" },
   { name: "Next.js", icon: "simple-icons:nextdotjs", color: "#FFFFFF" },
   { name: "Tailwind CSS", icon: "simple-icons:tailwindcss", color: "#06B6D4" },
-  { name: "Expo", icon: "simple-icons:expo", color: "#EDEEF0"},
+  { name: "Expo", icon: "simple-icons:expo", color: "#EDEEF0" },
   { name: "Turborepo", icon: "simple-icons:turborepo", color: "#FF1E56" },
   { name: "Cloudflare", icon: "simple-icons:cloudflare", color: "#F38020" },
-  { name: "Cloudflare Pages", icon: "simple-icons:cloudflarepages", color: "#F38020" },
-  { name: "Cloudflare Workers", icon: "simple-icons:cloudflareworkers", color: "#F38020" },
-  { name: "Algolia", icon: "simple-icons:algolia", color: "#003DFF"},
+  {
+    name: "Cloudflare Pages",
+    icon: "simple-icons:cloudflarepages",
+    color: "#F38020",
+  },
+  {
+    name: "Cloudflare Workers",
+    icon: "simple-icons:cloudflareworkers",
+    color: "#F38020",
+  },
+  { name: "Algolia", icon: "simple-icons:algolia", color: "#003DFF" },
   { name: "Netlify", icon: "simple-icons:netlify", color: "#00C7B7" },
   { name: "MongoDB", icon: "simple-icons:mongodb", color: "#47A248" },
   { name: "Redis", icon: "simple-icons:redis", color: "#FF4438" },
@@ -100,7 +107,7 @@ const technologies: Technology[] = [
   { name: "Oracle Cloud", icon: "simple-icons:oracle", color: "#EA1B22" },
   { name: "Mixpanel", icon: "simple-icons:mixpanel", color: "#7856FF" },
   { name: "Stripe", icon: "simple-icons:stripe", color: "#635BFF" },
-]
+];
 
 defineOgImageComponent("HomeOg");
 </script>
